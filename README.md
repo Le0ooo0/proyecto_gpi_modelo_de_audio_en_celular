@@ -26,8 +26,10 @@ El modelo fue integrado en una app android (mínimo android 13) y ejecutado en *
 ## 💻 Ejecución en PC
 Para pruebas en PC se utilizó el modelo `musicgen-small`, con las siguientes dependencias necesarias en un entorno Python **3.11.x** (no se recomienda usar versiones más recientes por problemas de compatibilidad con algunas librerías de Meta):
 
-### 🧪 Requisitos mínimos (usando pip)
+---
 
+### 🧪 Requisitos mínimos (usando pip)
+```bash
 pip install torch==2.1.0
 pip install torchaudio==2.1.0
 pip install audiocraft==1.4.0a2
@@ -35,7 +37,7 @@ pip install encodec==0.1.1
 pip install transformers==4.52.4
 pip install librosa==0.11.0
 pip install soundfile==0.13.1
-
+```
 ##⚠️ Notas importantes
 
 No se deben usar versiones más recientes de audiocraft, transformers, ni torch, ya que causan errores con musicgen-small.
