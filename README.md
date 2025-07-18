@@ -19,7 +19,7 @@ Link : https://drive.google.com/drive/folders/1Zj_O4i2tVBkEW4bbwHkkvrUzIeXLJic4?
 ---
 
 ## 📱 Ejecución en Android
-El modelo fue integrado en una app android (android 16) y ejecutado en **Android Studio**, utilizando un entorno local de desarrollo en Java/Kotlin y ONNNX para dispositivos móviles.
+El modelo fue integrado en una app android (mínimo android 13) y ejecutado en **Android Studio**, utilizando un entorno local de desarrollo en Java/Kotlin y ONNNX para dispositivos móviles.
 
 ---
 
